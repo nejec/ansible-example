@@ -1,0 +1,40 @@
+---
+# tasks file for falcon_configure
+- name: API block
+  when:
+    - falcon_client_id and falcon_client_secret
+    - falcon_option_set
+    - not falcon_cid
+  block:
+    - ansible.builtin.include_role:
+        name: falcon_install
+        tasks_from: "{{ 'win_auth.yml' if ansible_facts['os_family'] == 'Windows' else 'auth.yml' }}"
+      # noqa name[missing]
+
+- name: Linux Configure block
+  when:
+    - ansible_facts['os_family'] != "Windows"
+    - not falcon_remove_aid
+  become: true
+  become_user: root
+  block:
+    - ansible.builtin.include_tasks: configure.yml
+      # noqa name[missing]
+
+- name: Remove AID block
+  when:
+    - falcon_remove_aid
+    - ansible_facts['os_family'] != "Windows"
+  block:
+    - ansible.builtin.include_tasks: remove_aid.yml
+      # noqa name[missing]
+
+- name: Windows block
+  when:
+    - ansible_facts['os_family'] == "Windows"
+  become: true
+  become_method: "{{ falcon_windows_become_method }}"
+  become_user: "{{ falcon_windows_become_user }}"
+  block:
+    - ansible.builtin.include_tasks: win_configure.yml
+      # noqa name[missing]

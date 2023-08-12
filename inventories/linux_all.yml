@@ -1,0 +1,11 @@
+---
+all:
+  vars:
+    ansible_user: root
+  hosts:
+    vm-user-1:
+      ansible_host: $your_vm_ip
+      ansible_ssh_user: root
+      ansible_become_password: "your_secret_password"
+      ansible_ssh_private_key_file: "{{ inventory_dir + '../game-key'}}"
+      ansible_become_method: sudo

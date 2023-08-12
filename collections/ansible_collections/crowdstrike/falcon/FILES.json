@@ -1,0 +1,950 @@
+{
+ "files": [
+  {
+   "name": ".",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "changelogs",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "changelogs/config.yaml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "20b5af6fbbfe08b3e4fa12e5a5bd10902208fb6763b0d86da6a6ee1d2c609e72",
+   "format": 1
+  },
+  {
+   "name": "changelogs/fragments",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "changelogs/fragments/.gitkeep",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "format": 1
+  },
+  {
+   "name": "changelogs/changelog.yaml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6ffa4bc6dca77305ab57f310cc4bac54b1a2051b69a3f61adf313c1bca4c06ea",
+   "format": 1
+  },
+  {
+   "name": "changelogs/SUMMARY-example.txt",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c82d79f5635fc78b7a527d5ad55b44f189c8371784df51e406d108c7ae40634a",
+   "format": 1
+  },
+  {
+   "name": "LICENSE",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+   "format": 1
+  },
+  {
+   "name": "roles",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/falcon_uninstall",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/falcon_uninstall/defaults",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/falcon_uninstall/defaults/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "aa4c40f64ee27ed7818bd5f9bbab3868aa1851977a38ef81d2278af72630c3b9",
+   "format": 1
+  },
+  {
+   "name": "roles/falcon_uninstall/handlers",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/falcon_uninstall/handlers/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b794f92337d82f30fd2f83fe6ce7258fecb5cac22b958b746a84f5dcea10bf02",
+   "format": 1
+  },
+  {
+   "name": "roles/falcon_uninstall/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/falcon_uninstall/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "346af56df473a53f8c6c089d880f40728f4626358604f1d6642af94978bd0f07",
+   "format": 1
+  },
+  {
+   "name": "roles/falcon_uninstall/tasks/win_uninstall.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e26c1a621baa17f00490d9f1ca0ba60567457b0810a6ac7f5f889f9c700371e0",
+   "format": 1
+  },
+  {
+   "name": "roles/falcon_uninstall/tasks/uninstall.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7f926d0e9f32fd0c5edca41f1aeaa7d59f4746e3fc46a44a02e3b52ece1f581c",
+   "format": 1
+  },
+  {
+   "name": "roles/falcon_uninstall/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "3412e78afec0930d23b2346e632e3f3fe6db6bed66eaaba1c3992de8111e3937",
+   "format": 1
+  },
+  {
+   "name": "roles/falcon_uninstall/tests",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/falcon_uninstall/tests/inventory",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d906aecb61d076a967d9ffe8821c7b04b063f72df9d9e35b33ef36b1c0d98f16",
+   "format": 1
+  },
+  {
+   "name": "roles/falcon_uninstall/tests/test.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "79a59a5549a7ae35c325a49d6af3f71f63e93ed795601bf1c8743eca216795aa",
+   "format": 1
+  },
+  {
+   "name": "roles/falcon_uninstall/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/falcon_uninstall/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6e04736bfeebf26c4838b7cc00b1ebf4b1df175741ded4a09fa18a2f78b24204",
+   "format": 1
+  },
+  {
+   "name": "roles/falcon_uninstall/vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/falcon_uninstall/vars/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "dbc99198fb8e9b1114f0f7d808829af830cf41e1fb2e3503ec2969d5044a1c6e",
+   "format": 1
+  },
+  {
+   "name": "roles/falcon_install",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/falcon_install/defaults",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/falcon_install/defaults/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "4aac00ce7c07cff1ac019fc3e536e1844efe68a6f10bd91307f57eb1a1a37db8",
+   "format": 1
+  },
+  {
+   "name": "roles/falcon_install/handlers",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/falcon_install/handlers/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "37bdb0fd7b23eb6ad05c3bcb21dc5ed6aae5fbbbcf8a67721db2d73cd1a8c0d1",
+   "format": 1
+  },
+  {
+   "name": "roles/falcon_install/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/falcon_install/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9ebd2fa55545fdec07d8d0451abc40419a906ce3eb44870ae1b2b6778af141ce",
+   "format": 1
+  },
+  {
+   "name": "roles/falcon_install/tasks/install.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "50b2ed565687180ae9deb750f8d1564d479f6f842311fd05188d88534f996377",
+   "format": 1
+  },
+  {
+   "name": "roles/falcon_install/tasks/url.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f59dccac87c6081d318c2a7d213c7d6963bd61bfd8edaece9717f163cc421095",
+   "format": 1
+  },
+  {
+   "name": "roles/falcon_install/tasks/win_install.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "78f2ee7252ca97256fa067315792e95b1e69b2659b8f2694d09b5cee180d4e44",
+   "format": 1
+  },
+  {
+   "name": "roles/falcon_install/tasks/auth.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "64fc58c273f231fd158c6a7c5142ce2a4ce95de5902b9b1f926eb1718437a148",
+   "format": 1
+  },
+  {
+   "name": "roles/falcon_install/tasks/win_api.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "4652dc27f98d2af277e591ce90437ab0c3afbe2c8ee5e95feb62d967b70cfd38",
+   "format": 1
+  },
+  {
+   "name": "roles/falcon_install/tasks/file.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1f05d8e21cde77b66cae3039f0d16916716b0616d12d06d92dc83878a3f9bda5",
+   "format": 1
+  },
+  {
+   "name": "roles/falcon_install/tasks/win_auth.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "50ef9bc12ee1d4c329ed8fe529cbe658e2350fa1f473648642469bb6df769b07",
+   "format": 1
+  },
+  {
+   "name": "roles/falcon_install/tasks/preinstall.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "db7209aec9c31daf2550bdc35fbf2f269712a68aa7c87a6c7d5fc6ba378dbc96",
+   "format": 1
+  },
+  {
+   "name": "roles/falcon_install/tasks/api.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a636120e8cdadad43237dfc2b2b0d9686d2b638879ec3947f8a4cb27cf862aea",
+   "format": 1
+  },
+  {
+   "name": "roles/falcon_install/files",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/falcon_install/files/falcon-sensor.gpg",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ac29fa7d25f591c5c6fecb20874088868a43699e2dd39fb2fc48bf19e277aa70",
+   "format": 1
+  },
+  {
+   "name": "roles/falcon_install/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d90f699d18670ea4ab617408854cb8ea1be21d102987a0fb41643dc2c3c33a32",
+   "format": 1
+  },
+  {
+   "name": "roles/falcon_install/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/falcon_install/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "355e1d463fee20cf8b320bd26eb488cc668a24e482104eff75f5ba3fafc9bc32",
+   "format": 1
+  },
+  {
+   "name": "roles/falcon_install/vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/falcon_install/vars/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "db70cbb7a6c1af8812cea5f84d76a0f1a38334e13181141a16aad1e73d66bd20",
+   "format": 1
+  },
+  {
+   "name": "roles/falcon_configure",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/falcon_configure/defaults",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/falcon_configure/defaults/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ee057eebefe2fb8cc78c9b8b4416760b764fc22da5ce276fdeddc494364452b0",
+   "format": 1
+  },
+  {
+   "name": "roles/falcon_configure/handlers",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/falcon_configure/handlers/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "53d36f6a8afb87aa6f7179f4a9ddbd0b207500ee70053f811925fb213e6b4072",
+   "format": 1
+  },
+  {
+   "name": "roles/falcon_configure/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/falcon_configure/tasks/win_configure.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6158590b9416ffafcb98405cfadcad3f36b11a2c1d45940c1464a6e701029d34",
+   "format": 1
+  },
+  {
+   "name": "roles/falcon_configure/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5341d8a816d054890f990bb73975cced516d8b594c0ec41da001d3c803834d37",
+   "format": 1
+  },
+  {
+   "name": "roles/falcon_configure/tasks/configure.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6307ccb8e3c9d1fab6ca38a1ba6442f9534995d580f8c4cd55ff7bc2ddaa8faa",
+   "format": 1
+  },
+  {
+   "name": "roles/falcon_configure/tasks/remove_aid.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e41ef0554a3a5e20ad0ef0b1e8764e2ef5eb9920950643cc6a46b71fc4a87574",
+   "format": 1
+  },
+  {
+   "name": "roles/falcon_configure/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "184e616c62ca389c4761d96508a7bfea66845338daa7051e157e11bef2783b32",
+   "format": 1
+  },
+  {
+   "name": "roles/falcon_configure/tests",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/falcon_configure/tests/inventory",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d906aecb61d076a967d9ffe8821c7b04b063f72df9d9e35b33ef36b1c0d98f16",
+   "format": 1
+  },
+  {
+   "name": "roles/falcon_configure/tests/test.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b2e27cc94235da6c6cf4da6f56154a5eb6bb38e8af417b2da8c450e5b5307236",
+   "format": 1
+  },
+  {
+   "name": "roles/falcon_configure/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/falcon_configure/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "98e79d3b113e2353a1cc9c1dbf2b0e478524cf155c86a5db2f3e198024b3a17c",
+   "format": 1
+  },
+  {
+   "name": "roles/falcon_configure/vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/falcon_configure/vars/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "deffd669ba2d0f57a84302a1ecf75fcefb63fbc1bdcfd488c916053e24916032",
+   "format": 1
+  },
+  {
+   "name": "molecule",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/win_falcon_configure",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/win_falcon_configure/converge.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d8fab1f37b63aaf25331448b69220a80b32bb604c28b3e4f7c5247d2fbcfed0e",
+   "format": 1
+  },
+  {
+   "name": "molecule/win_falcon_configure/verify.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5714647e735ef338ded67f999a4a9c3a84f842b1473ff947b976c12eebc5b3fb",
+   "format": 1
+  },
+  {
+   "name": "molecule/win_falcon_configure/molecule.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5728a4294463157eb4b818649bf918703b218f63cbffabbebe4ed18550adbcdb",
+   "format": 1
+  },
+  {
+   "name": "molecule/win_falcon_configure/INSTALL.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "05dbaf0a0a6381e0b40bbc4dee68296c25c2ee0ea8c2bea73ca54d4df128e690",
+   "format": 1
+  },
+  {
+   "name": "molecule/win_falcon_configure/prepare.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5ee825df37f23e67f34fc3d4d1177e2de53768c7dd1f46434a894727b286b2e6",
+   "format": 1
+  },
+  {
+   "name": "molecule/win_falcon_install_policy",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/win_falcon_install_policy/converge.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6645b0bb6bb8c56c8817fd3f8f7fc76af78c70e3d31b8e203ada9cf024701b1b",
+   "format": 1
+  },
+  {
+   "name": "molecule/win_falcon_install_policy/verify.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "59a1363cc42a04ede9705e292380a468e646b64198379cd3e43c67711b0b181c",
+   "format": 1
+  },
+  {
+   "name": "molecule/win_falcon_install_policy/molecule.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5728a4294463157eb4b818649bf918703b218f63cbffabbebe4ed18550adbcdb",
+   "format": 1
+  },
+  {
+   "name": "molecule/win_falcon_install_policy/INSTALL.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "05dbaf0a0a6381e0b40bbc4dee68296c25c2ee0ea8c2bea73ca54d4df128e690",
+   "format": 1
+  },
+  {
+   "name": "molecule/win_falcon_install_policy/prepare.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6c0891c4eaa2e158ecc605ddf30746943d1da900821c5cdb8f17c4d860d2cc44",
+   "format": 1
+  },
+  {
+   "name": "molecule/win_falcon_uninstall",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/win_falcon_uninstall/converge.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "71c1c192c4cde3df43131ccdb27d560a0a79ea624cbe1612b9c9ebfad40032c4",
+   "format": 1
+  },
+  {
+   "name": "molecule/win_falcon_uninstall/verify.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ae11c02d49bcaef5287f070e432fbd7fa09bb154353ef2efddc63d9548ab1c44",
+   "format": 1
+  },
+  {
+   "name": "molecule/win_falcon_uninstall/molecule.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5728a4294463157eb4b818649bf918703b218f63cbffabbebe4ed18550adbcdb",
+   "format": 1
+  },
+  {
+   "name": "molecule/win_falcon_uninstall/INSTALL.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "05dbaf0a0a6381e0b40bbc4dee68296c25c2ee0ea8c2bea73ca54d4df128e690",
+   "format": 1
+  },
+  {
+   "name": "molecule/win_falcon_uninstall/prepare.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5ee825df37f23e67f34fc3d4d1177e2de53768c7dd1f46434a894727b286b2e6",
+   "format": 1
+  },
+  {
+   "name": "molecule/win_falcon_install",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/win_falcon_install/converge.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "07968d3fc9f8a6f4a674c360f1813ee4cfd1c140bf4a04ddfc5fcef7d7aef230",
+   "format": 1
+  },
+  {
+   "name": "molecule/win_falcon_install/verify.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "59a1363cc42a04ede9705e292380a468e646b64198379cd3e43c67711b0b181c",
+   "format": 1
+  },
+  {
+   "name": "molecule/win_falcon_install/molecule.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5728a4294463157eb4b818649bf918703b218f63cbffabbebe4ed18550adbcdb",
+   "format": 1
+  },
+  {
+   "name": "molecule/win_falcon_install/INSTALL.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "05dbaf0a0a6381e0b40bbc4dee68296c25c2ee0ea8c2bea73ca54d4df128e690",
+   "format": 1
+  },
+  {
+   "name": "molecule/win_falcon_install/prepare.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6c0891c4eaa2e158ecc605ddf30746943d1da900821c5cdb8f17c4d860d2cc44",
+   "format": 1
+  },
+  {
+   "name": "molecule/falcon_install_policy",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/falcon_install_policy/converge.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "25b86ac5d4d4555e9e7b2c17b4bfc993c2cb193b60259b8654805153edd242ef",
+   "format": 1
+  },
+  {
+   "name": "molecule/falcon_install_policy/cleanup.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "57f8f606b8010178b2b73c0a968f1a1b4dbaba2c6a51a8c55506e3e64d7e9382",
+   "format": 1
+  },
+  {
+   "name": "molecule/falcon_install_policy/verify.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b932b3ec94ded655c19d093ccbe0fb67091879b40e08f1135346d25e0ba6ec35",
+   "format": 1
+  },
+  {
+   "name": "molecule/falcon_install_policy/molecule.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "34abb6b40b75e567121b7732b0f1e30d0cb234f238209207286dce7193055001",
+   "format": 1
+  },
+  {
+   "name": "molecule/falcon_install_policy/prepare.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b70f8b4674a770e488544aa2c328dbffc722fab9b43c5a4afddbcead2d1e5133",
+   "format": 1
+  },
+  {
+   "name": "molecule/falcon_uninstall",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/falcon_uninstall/converge.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "00ee735069c14169a1288bac52843e855659fb2157e03335fea406ab3231fff8",
+   "format": 1
+  },
+  {
+   "name": "molecule/falcon_uninstall/verify.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2d90164a4505902ce58c026f4102193df19ca240fbe203935253b77ed7f9ab5c",
+   "format": 1
+  },
+  {
+   "name": "molecule/falcon_uninstall/molecule.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "831481ea9456738f30041f23f76cda5865378cbfa3bbaae6b8c2241a4b42af32",
+   "format": 1
+  },
+  {
+   "name": "molecule/falcon_uninstall/prepare.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "87dfe527742b897f9663fd19a0e177be6c884d1abf0094fb0404d200d6a7333b",
+   "format": 1
+  },
+  {
+   "name": "molecule/falcon_install",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/falcon_install/converge.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "3fbd6a8d613c354ec8540f4c5d9cc4b90356c88ee018339692b057f33e34bbde",
+   "format": 1
+  },
+  {
+   "name": "molecule/falcon_install/verify.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9b13e5cc2f3bef960024efaa5caa5e0b250457dd2b8abd353ae737392f41d36f",
+   "format": 1
+  },
+  {
+   "name": "molecule/falcon_install/molecule.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6674ebb041557869fb47c5baf6259efcb703a9af56f6bd80a4d540ccf1b75583",
+   "format": 1
+  },
+  {
+   "name": "molecule/falcon_install/prepare.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f56628a17a6a90e4f5ad298b63e3c29aa7ce95b9c94f19298970f16f7998808d",
+   "format": 1
+  },
+  {
+   "name": "molecule/falcon_configure",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/falcon_configure/converge.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6f59f887390836f565ca1d63734b41dfef8c406b604bbd5b378ec8b65aa26440",
+   "format": 1
+  },
+  {
+   "name": "molecule/falcon_configure/verify.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f482c8858ceb2e21a4daa40dc7c397daf584811039ddb4ab497670f8dfafeee2",
+   "format": 1
+  },
+  {
+   "name": "molecule/falcon_configure/molecule.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6674ebb041557869fb47c5baf6259efcb703a9af56f6bd80a4d540ccf1b75583",
+   "format": 1
+  },
+  {
+   "name": "molecule/falcon_configure/prepare.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e2ed10b6aac6bb994035db759e52552767eaab015b218ad7728f0950057e2151",
+   "format": 1
+  },
+  {
+   "name": ".pylintrc",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "534b54dd717daa08706fb357a94e28bd95d6faeae3a70a303c31267d3bd9806b",
+   "format": 1
+  },
+  {
+   "name": "CHANGELOG.rst",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e12232b59e87288c2e79107ecd3ae6e67a6d9c0e577ee5905b212b51f50c6255",
+   "format": 1
+  },
+  {
+   "name": "README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9ebd9b4936ebf6a543272a2c7894938c53f903eb12bbfaafb7ba5b47365ef1be",
+   "format": 1
+  },
+  {
+   "name": "tests",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/inventory",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d906aecb61d076a967d9ffe8821c7b04b063f72df9d9e35b33ef36b1c0d98f16",
+   "format": 1
+  },
+  {
+   "name": "tests/sanity",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/sanity/ignore-2.11.txt",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "da29036ea9148f8fed4432376f724d9e7d249144c59fd152c6ff2ff48bdfe0fb",
+   "format": 1
+  },
+  {
+   "name": "tests/sanity/ignore-2.12.txt",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "0bee71e76ce10fc6c2d3fd1dc5410ce7c4c987911d1196255ab23b0cb89ede1a",
+   "format": 1
+  },
+  {
+   "name": "tests/test.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "906d27e2377d12fda026fb9b11ab2968758b4bd5485bf76d75005822202dcb66",
+   "format": 1
+  },
+  {
+   "name": "meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "meta/runtime.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "0043c6e59e95f05ef05493d124296db4876fd30c48a0ee7e256c757523ea4996",
+   "format": 1
+  },
+  {
+   "name": "requirements.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c4322345b7961595178786df5a8a33286210b5e5a4c2b13b21c31d0b5d0f64b1",
+   "format": 1
+  },
+  {
+   "name": ".yamllint",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5845e18e9f23155f423207df9abac970aed687c638620bc2c9ee06706191054b",
+   "format": 1
+  },
+  {
+   "name": ".flake8",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7b3231018a9fd5af8b9ea86021eebabd4505ae65665cb940187705ac1fb51907",
+   "format": 1
+  },
+  {
+   "name": "plugins",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "plugins/module_utils",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "plugins/module_utils/falconctl_utils.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f552837bb3fabb9eb0ae7892e46f7d69e7febca32a59e11025be56aa8a7af9b9",
+   "format": 1
+  },
+  {
+   "name": "plugins/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e5319c575182f4f1dd671dead576e7ab3846700f9291acd755c3790a97ce265e",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/falconctl_info.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ac599de4a57fefe0b3a8c6bf51fe4e3852ae92cd3a52ee4f5c2771b688526fb0",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/falconctl.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d4e9550ddbce9fb3862a4a0f35ee499f37590b875d8a24eea9121ebd2b9dbfa4",
+   "format": 1
+  },
+  {
+   "name": ".ansible-lint",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "bd3b58542a0c1cd92218dc06ae3a0562c8a278b7f459e6ba75df50571cb78283",
+   "format": 1
+  }
+ ],
+ "format": 1
+}

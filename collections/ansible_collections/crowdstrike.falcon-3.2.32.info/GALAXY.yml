@@ -1,0 +1,8 @@
+download_url: https://galaxy.ansible.com/download/crowdstrike-falcon-3.2.32.tar.gz
+format_version: 1.0.0
+name: falcon
+namespace: crowdstrike
+server: https://galaxy.ansible.com/api/
+signatures: []
+version: 3.2.32
+version_url: https://galaxy.ansible.com/api/v2/collections/crowdstrike/falcon/versions/3.2.32/
